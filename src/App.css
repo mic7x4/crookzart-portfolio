@@ -8,3 +8,43 @@
 body {
   font-family: "Roboto" !important;
 }
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
+}
+
+/* Phone and Tablet */
+@media (max-width: 768px) {
+  .main__info h1 {
+    font-size: 1.5rem;
+  }
+  .hero__typed {
+    font-size: 1.2rem !important;
+  }
+  .navbar-light .navbar-brand {
+    font-size: 1.5rem !important;
+  }
+  .aboutme {
+    flex-direction: column;
+    padding: 20px;
+  }
+  .img__container {
+    width: 100% !important;
+  }
+  .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .text__container {
+    width: 100% !important;
+    padding: 1rem;
+  }
+  .image img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+}

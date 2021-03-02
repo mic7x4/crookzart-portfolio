@@ -1,9 +1,9 @@
 .bg-dark {
-  background: linear-gradient(
-    54deg,
-    rgba(45, 45, 45, 0.95) 34%,
-    rgba(45, 45, 45, 0.95)
-  );
+  background: linear-gradient(54deg, rgb(0, 7, 53) 34%, rgb(0, 5, 51));
+  position: fixed;
+  width: 100%;
+  z-index: 9000;
+  margin-bottom: 2rem;
 }
 .navbar-light .navbar-brand {
   color: rgb(216, 216, 216) !important;
@@ -19,7 +19,7 @@ nav a.nav-link {
   font-size: 0.9rem;
   color: rgb(240, 240, 240) !important;
   transition: all;
-  border-bottom: 1px solid rgba(45, 45, 45, 0.95);
+  border-bottom: 1px solid rgb(0, 7, 53);
   margin-left: 0.5rem;
 }
 nav a.nav-link:hover {
